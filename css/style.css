@@ -1,0 +1,106 @@
+body{
+    margin: 0; padding: 0;
+}
+/* üst taraf başlangıç */
+.ust{
+    height: 200px;
+    padding: 25px;
+}
+.bas a, .son a{
+    font-family: arial;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+.bas a:hover, .ustson a:hover{
+    text-decoration: underline;
+}
+.ustson{
+    margin-top: -18px;
+    display: flex;
+    justify-content: flex-end;
+}
+.ustson a{
+    font-family: arial;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+.ustbtn{
+    margin-top: -3px;
+    color: white;
+    padding: 5px 15px;
+    background-color: rgb(0, 155, 207);
+    border: 0px; border-radius: 5px;
+    margin-right: 20px;
+}
+/* üst taraf bitiş */
+
+
+/* orta taraf başlangıç */
+.orta{
+    display: inline-block;
+    width: 100%; height: auto;
+}
+.orta img{
+    display: block;
+    margin: auto;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+}
+.orta input{
+    display: block;
+    margin: auto;
+    width: 700px; height: 50px;
+    border-radius: 100px;
+    font-size: 24px;
+    padding-left: 10px; padding-right: 10px;
+}
+.orta button{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    width: 150px; height: 50px;
+    border: 0px; border-radius: 5px;
+    color: gray;
+}
+.altbtn{
+    width: 100%;
+    text-align: center;
+}
+/* orta taraf bitiş*/
+
+/* alt taraf başlangıç*/
+.alt{
+    width: 100%; height: 50px;
+    background-color: rgb(194, 194, 194);
+    border-top: 2px;
+    position: absolute;
+    bottom: 0px;
+}
+.altbas{
+    margin-top: 15px;
+}
+.altbas a, .altson a{
+    font-family: arial;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+.altbas a:hover, .altson a:hover{
+    text-decoration: underline;
+}
+.altson{
+    margin-top: -15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.altson a{
+    font-family: arial;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+/* alt taraf bitiş*/
